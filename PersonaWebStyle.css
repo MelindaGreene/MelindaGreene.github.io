@@ -1,0 +1,532 @@
+/*@media screen and (min-width: 200px) and (max-width: 991px ){*/
+
+    *{
+
+        background-color: #7188AC;
+    }
+    body{
+        margin: 0;
+        display: grid;
+        text-align: center;
+        grid-template-columns: 100%;
+        grid-template-rows: 200px 400px 400px;
+    }
+
+
+    #Abox{
+        display:none;
+        /*visibility: hidden;*/
+
+    }
+    #ASkew{
+        display:none;
+        /*visibility: hidden;*/
+
+
+    }
+
+    #buttonContact{
+        background-color: #948E90;
+        color: white;
+        box-shadow: none;
+        justify-items : center;
+    }
+
+    #buttonContact:hover{
+        color:white;
+    }
+    #circle{
+        border-radius: 50%;
+        background-color: #948E90;
+        width:  100px;
+        height: 100px;
+        grid-area: 1/1/1/1;
+        margin: auto;
+
+    }
+
+    #Dbox{
+        display:none;
+        /*visibility: hidden;*/
+
+
+    }
+
+    #DSkew{
+        display:none;
+        /*visibility: hidden;*/
+
+
+    }
+
+    #Ebox{
+        display:none;
+        /*visibility: hidden;*/
+
+    }
+
+    #ESkew{
+        display:none;
+        /*visibility: hidden;*/
+
+    }
+
+    #headerbox{
+        background-color: #80A8A1;
+        grid-area: 1/1/1/1;
+        width: auto;
+        height: 200px;
+
+    }
+
+    #headerFirstName{
+        color:white;
+        background-color: #80A8A1;
+        font-family: Dosis,Serif;
+        font-size: 35px;
+        grid-area: 1/1/1/1;
+        margin-right: 250px;
+        margin-left: 10px;
+        margin-top:80px;
+
+    }
+
+
+    #headerLastName{
+        color:white;
+        font-family: Dosis,Serif;
+        font-size: 35px;
+        grid-area:1/1/1/1;
+        margin-left: 105px;
+        margin-top: -69px;
+
+
+
+    }
+    #Ibox{
+        display:none;
+        /*visibility: hidden;*/
+
+
+    }
+
+    #ISkew{
+        display:none;
+        /*visibility: hidden;*/
+
+
+    }
+    #initials{
+        background-color: #948E90;
+        font-family: Dosis, serif;
+        font-size: 30px;
+        margin: 27px;
+        color: white;
+
+
+    }
+
+    #Lbox{
+        display:none;
+        /*visibility: hidden;*/
+
+
+    }
+
+    #LSkew{
+        display:none;
+        /*visibility: hidden;*/
+
+
+    }
+
+    #Mbox{
+        display:none;
+        /*visibility: hidden;*/
+
+
+    }
+    #MSkew{
+        /*display:none;*/
+        visibility: hidden;
+
+
+    }
+
+    #Nbox{
+        /*display:none;*/
+        visibility: hidden;
+
+
+    }
+
+    #NSkew{
+        display:none;
+        /*visibility: hidden;*/
+
+    }
+
+
+    #triangle-up {
+        width: 0;
+        height: 0;
+        border-left: 190px solid transparent;
+        border-right: 190px solid transparent;
+        border-bottom: 400px solid #80A8A1;
+        /*margin-bottom: 30px;*/
+        /*padding-top: 195px;*/
+        /*padding-top: -600px;*/
+        align-content: center;
+        grid-area: 5/1/3/1;
+    }
+
+    .word{
+        display:none;
+        /*visibility: hidden;*/
+
+    }
+
+
+/*}*/
+
+
+
+
+
+@media screen and (min-width:992px) and (max-width:1300px)  {
+
+    body {
+        /*background: #DBBF37;*/
+        /*color: #FFF;*/
+        display: grid;
+        grid-template-columns: 400px 400px 400px ;
+        grid-template-rows: 400px 400px 400px ;
+
+
+    }
+
+    #Abox {
+        background-color: #7b5eb7;
+        grid-area: 2/1/3/2;
+        width: 100px;
+        height: 100px;
+        /*margin-bottom: 60px;*/
+        /*position: static;*/
+        /*position: absolute;*/
+        /*top:  20px;*/
+        /*left: 65px;*/
+        display: inline;
+
+    }
+
+    #ASkew {
+        background-color: #7b5eb7;
+        grid-area: 2/1/3/2;
+        width: 100px;
+        height: 100px;
+        /*padding:0;*/
+        /*margin-top: 140px;*/
+        /*margin-left: 100px;*/
+        /*position: absolute;*/
+        /*top: 92px;*/
+        /*left: 40px;*/
+        /*display: none;*/
+        /*display:inline-block;*/
+        -webkit-transform: skew(20deg);
+        -moz-transform: skew(20deg);
+        -o-transform: skew(20deg);
+        color: #fff;
+        margin-top: -120px;
+        margin-left: 40px;
+        display: inline;
+    }
+
+    /*#background{*/
+    /*    background-color: #0fb784;*/
+    /*    transform: rotate(-20deg);*/
+    /*}*/
+    .acronym {
+        /*margin-left: 60px;*/
+    }
+
+
+    #Dbox{
+        background-color: #7b5eb7;
+        grid-area: 2/1/3/2;
+        width: 100px;
+        height: 100px;
+        /*margin-bottom: 60px;*/
+        /*position: static;*/
+        /*position: absolute;*/
+        /*top:  20px;*/
+        /*left: 65px;*/
+
+    }
+
+    #DSkew{
+        background-color: #7b5eb7;
+        grid-area: 2/1/3/2;
+        width: 100px;
+        height: 100px;
+        /*padding:0;*/
+        /*margin-top: 140px;*/
+        /*margin-left: 100px;*/
+        /*position: absolute;*/
+        /*top: 92px;*/
+        /*left: 40px;*/
+        /*display: none;*/
+        /*display:inline-block;*/
+        -webkit-transform: skew(20deg);
+        -moz-transform: skew(20deg);
+        -o-transform: skew(20deg);
+        color: #fff;
+        margin-top: -120px;
+        margin-left: 40px;
+    }
+
+    #Ebox {
+        background-color: #7b5eb7;
+        grid-area: 2/1/3/2;
+        width: 100px;
+        height: 100px;
+        /*margin-bottom: 60px;*/
+        /*position: static;*/
+        /*position: absolute;*/
+        /*top:  20px;*/
+        /*left: 65px;*/
+
+    }
+
+    #ESkew {
+        background-color: #7b5eb7;
+        grid-area: 2/1/3/2;
+        width: 100px;
+        height: 100px;
+        /*padding:0;*/
+        /*margin-top: 140px;*/
+        /*margin-left: 100px;*/
+        /*position: absolute;*/
+        /*top: 92px;*/
+        /*left: 40px;*/
+        /*display: none;*/
+        /*display:inline-block;*/
+        -webkit-transform: skew(20deg);
+        -moz-transform: skew(20deg);
+        -o-transform: skew(20deg);
+        color: #fff;
+        margin-top: -119.5px;
+        margin-left: 40px;
+    }
+
+    #headerbox{
+        display: none;
+    }
+
+    #Ibox {
+        background-color: #7b5eb7;
+        grid-area: 2/1/3/2;
+        width: 100px;
+        height: 100px;
+        /*margin-bottom: 60px;*/
+        /*position: static;*/
+        /*position: absolute;*/
+        /*top:  20px;*/
+        /*left: 65px;*/
+
+    }
+
+    #ISkew {
+        background-color: #7b5eb7;
+        grid-area: 2/1/3/2;
+        width: 100px;
+        height: 100px;
+        /*padding:0;*/
+        /*margin-top: 140px;*/
+        /*margin-left: 100px;*/
+        /*position: absolute;*/
+        /*top: 92px;*/
+        /*left: 40px;*/
+        /*display: none;*/
+        /*display:inline-block;*/
+        -webkit-transform: skew(20deg);
+        -moz-transform: skew(20deg);
+        -o-transform: skew(20deg);
+        color: #fff;
+        margin-top: -120px;
+        margin-left: 40px;
+    }
+
+    .slider {
+        visibility: hidden;
+        color: black;
+
+    }
+
+    p {
+        width: 100px;
+        height: 100px;
+        background-color: #9f8e3a;
+    }
+
+
+    #Lbox {
+        background-color: #7b5eb7;
+        grid-area: 2/1/3/2;
+        width: 100px;
+        height: 100px;
+        /*margin-bottom: 60px;*/
+        /*position: static;*/
+        /*position: absolute;*/
+        /*top:  20px;*/
+        /*left: 65px;*/
+
+    }
+
+    #LSkew {
+        background-color: #7b5eb7;
+        grid-area: 2/1/3/2;
+        width: 100px;
+        height: 100px;
+        /*padding:0;*/
+        /*margin-top: 140px;*/
+        /*margin-left: 100px;*/
+        /*position: absolute;*/
+        /*top: 92px;*/
+        /*left: 40px;*/
+        /*display: none;*/
+        /*display:inline-block;*/
+        -webkit-transform: skew(20deg);
+        -moz-transform: skew(20deg);
+        -o-transform: skew(20deg);
+        color: #fff;
+        margin-top: -120px;
+        margin-left: 40px;
+    }
+
+
+    #MSkew {
+        background-color: #7b5eb7;
+        grid-area: 1/1/2/2;
+        width: 100px;
+        height: 100px;
+        padding: 0;
+        margin-top: -120px;
+        margin-left: 70px;
+        /*margin-bottom: 00px;*/
+        /*position: relative;*/
+        /*top: 92px;*/
+        /*left: 40px;*/
+        /*margin-right: 100px;*/
+        /*display: none;*/
+        /*display:inline-block;*/
+
+        -webkit-transform: skew(20deg);
+        -moz-transform: skew(20deg);
+        -o-transform: skew(20deg);
+        color: #fff;
+        display: inline;
+
+
+    }
+
+    #Mbox {
+        background-color: #7b5eb7;
+        grid-area: 1 / 1 / 2/ 2;
+        width: 100px;
+        height: 100px;
+        margin-right: 200px;
+        /*margin-top: 80px;*/
+        /*position: absolute;*/
+        /*top:  20px;*/
+        /*left: 65px;*/
+    }
+
+
+    #Nbox {
+        background-color: #7b5eb7;
+        grid-area: 2/1/3/2;
+        width: 100px;
+        height: 100px;
+        /*margin-bottom: 60px;*/
+        /*position: static;*/
+        /*position: absolute;*/
+        /*top:  20px;*/
+        /*left: 65px;*/
+
+    }
+
+    #NSkew {
+        background-color: #7b5eb7;
+        grid-area: 2/1/3/2;
+        width: 100px;
+        height: 100px;
+        /*padding:0;*/
+        /*margin-top: 140px;*/
+        /*margin-left: 100px;*/
+        /*position: absolute;*/
+        /*top: 92px;*/
+        /*left: 40px;*/
+        /*display: none;*/
+        /*display:inline-block;*/
+        -webkit-transform: skew(20deg);
+        -moz-transform: skew(20deg);
+        -o-transform: skew(20deg);
+        color: #fff;
+        margin-top: -120px;
+        margin-left: 40px;
+    }
+
+    /*div {*/
+    /*    display: none;*/
+    /*}*/
+    /*a:hover + div {*/
+    /*    display: block;*/
+    /*}*/
+    .word {
+        display: none;
+        -webkit-transform: skew(-20deg);
+        -moz-transform: skew(-20deg);
+        -o-transform: skew(-20deg);
+    }
+
+
+    .word {
+        display: none;
+        -webkit-transform: skew(-20deg);
+        -moz-transform: skew(-20deg);
+        -o-transform: skew(-20deg);
+
+    }
+
+    .title {
+        position: relative;
+        width: 100px;
+        height: 100px;
+        padding: 10px 20px 10px 10px;
+        font-size: 20px;
+        color: #FFF;
+        background: #7b5eb7;
+    }
+
+    .title:after {
+        content: " ";
+        position: absolute;
+        display: block;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        background: #7b5eb7;
+        transform-origin: top left;
+        -ms-transform: skewX(20deg); /* IE 9 */
+        -webkit-transform: skewX(20deg); /* Safari prior 9.0 */
+        transform: skewX(20deg); /* Standard syntax */
+        transition: transform 0.3s ease;
+
+
+    }
+}
+
+
+
