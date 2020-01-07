@@ -10,6 +10,7 @@
         text-align: center;
         grid-template-columns: 100%;
         grid-template-rows: 400px 400px 400px;
+        height: 1000px;
     }
 
 
@@ -170,7 +171,7 @@
     }
 
 
-    #triangle-up {
+    #triangle-up{
         background-color: #7188AC ;
         width: 0;
         height: 0;
